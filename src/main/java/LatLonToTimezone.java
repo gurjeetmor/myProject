@@ -7,7 +7,7 @@ import java.util.function.Function;
 
 public class LatLonToTimezone implements Function<LatLng,Optional<TimeZone>> {
 
-    private static final String API_KEY = "AIzaSyAeMc3HQuO4tBj1VHL2aysOo7vdQfCfx7Q";
+    private static final String API_KEY = "Your Google API Key";
     private static GeoApiContext context = new GeoApiContext().setApiKey(API_KEY);
 
     @Override
